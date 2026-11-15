@@ -478,6 +478,14 @@ footer a{color:#fff}
 .cap small{display:block;font-family:'IBM Plex Sans',sans-serif;font-weight:400;font-size:12px;color:rgba(255,255,255,.7);margin-top:5px;letter-spacing:0}
 @media (min-width:800px){.cap{font-size:22px}}
 @media (min-width:800px){.gallery.land{grid-template-columns:1fr 1fr}}
+@media (max-width:799px){
+  .gallery{grid-template-columns:1fr;gap:12px}
+  .gallery .ph,.gallery .ph.wide,.gallery.land .ph{grid-column:auto;aspect-ratio:4/3}
+  .gallery .ph .pi{background-position:center 35%,0 0,0 0,0 0}
+  .cap{font-size:18px;padding:40px 14px 12px}
+  .ln .v{font-size:19px;word-break:normal;overflow-wrap:anywhere}
+  .row .btn{flex:1 1 100%;justify-content:center}
+}
 </style>
 </head>
 <body>
